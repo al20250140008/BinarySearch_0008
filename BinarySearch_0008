@@ -1,0 +1,25 @@
+#include <iostream
+using namespace std;
+
+int element [10]
+int nPanjang;
+int x;
+
+void inpit ()
+
+    while (true)
+    {
+        cout << "masukkan banyaknya elemen pada array (maksimal 10):";
+        cin >> npanjang;
+
+        if (nPanjang <= 10)
+        {
+            break;
+        }
+        else
+        {
+            cout << "\n[!] jumlah elemen tidak boleh lebih dari 10. silakan coba lagi.\n";
+
+        }
+    }
+      
